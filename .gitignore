@@ -1,0 +1,15 @@
+.venv
+.terraform
+.terraform.lock.hcl
+*.zip
+response.json
+*.tfstate
+*.tfstate.backup
+.idea
+
+
+src/process_lambda/**
+!src/process_lambda/my_lambda.py
+!src/process_lambda/requirements.txt
+!src/process_lambda/my_module/
+!src/process_lambda/my_module/__init__.py
